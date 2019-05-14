@@ -129,19 +129,20 @@ janela.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-ManutencaodeLivro janela = new ManutencaodeLivro(this, true);
+ManutencaoLivro janela = new ManutencaoLivro(this, true);
 janela.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-ManutencaodeEditora janela = new ManutencaodeEditora(this, true);
+ManutencaodeAutor janela = new ManutencaodeAutor(this, true);
 janela.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+ManutencaodeEditora janela = new ManutencaodeEditora(this, true);
+janela.setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
